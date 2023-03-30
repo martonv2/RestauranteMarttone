@@ -1,0 +1,34 @@
+body{
+    background-color: cadetblue;
+}
+
+#titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#eslogan{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#logotipo{
+    width: 350px;
+    height: 250px;
+    display: block; /* con las propiedades display block y margin auto, centro la imagen */
+    margin: auto;
+}
+
+ul{
+    text-align: center; /* centra el nav*/
+}
+li{
+    width: 100px; /*espaciado entre cada boton*/
+    display: inline-block; /* permite colocar el nav en horizontal */
+}
+
+footer{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
