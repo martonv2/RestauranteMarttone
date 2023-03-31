@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head> <!-- Las etiquetas de head no se muestran en la web -->
-        
+
         <title>Restaurante Marttone</title> <!-- esta etiqueta muestra el nombre en la pestaña -->
         <link rel="stylesheet" href="CSS/style.css" type="text/css"> <!-- esta etiqueta enlaza el archivo CSS con esta pagina-->
-
+        <link rel="stylesheet" type="text/css"
+            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <script type="text/javascript"
+            src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <!-- chuleta con todas las etiquetas de <head>
             <title>: Define el título de la página.
             <meta>: Permite especificar información adicional sobre la página, como su descripción, palabras clave, autor, entre otros.
@@ -12,14 +15,15 @@
             <style>: Permite definir estilos CSS que se aplicarán a la página.
             <script>: Permite agregar código JavaScript a la página.
         -->
-
     </head>
 
     <body>
-        <h1 id="titulo">Marttone</h1>
-        <p id="eslogan">¡Viaja a Italia sin salir de Santander, prueba nuestros sabores auténticos en cada bocado!</p>
-        <img src="IMG/placerholder.png" alt="logo de Marttone" id="logotipo"><!-- logo-->
-        <nav>
+        <div class="logoContainer">
+            <img src="IMG/blacklogo.png" alt="logo de Marttone" id="logotipo"><!-- logo-->
+        </div>
+        <p id="eslogan">¡Viaja a Italia sin salir de Santander, prueba nuestros
+            sabores auténticos en cada bocado!</p>
+        <!--<nav>
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Menú</a></li>
@@ -27,7 +31,27 @@
                 <li><a href="#">Reservas</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
-        </nav>
+        </nav>-->
+        <div id="containerMenu">
+            <div class="subMenu">
+                <p>Menú</p>
+            </div>
+
+            <div class="subMenu">
+                <p>Reservas</p>
+            </div>
+
+            <div class="subMenu">
+                <p>Contacto</p>
+            </div>
+
+        </div>
+        <div id="containerCarrusel">
+            <p>Aqui irá un carrusel con imagenes</p>
+        </div>
+        <div id="containerReview">
+            <p>Aqui irán algunas reseñas de clientes</p>
+        </div>
 
         <!-- chuleta con todas las etiquetas de <body>
             <h1>, <h2>, <h3>, <h4>, <h5>, <h6>: Encabezados de diferentes niveles.
